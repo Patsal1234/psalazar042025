@@ -1,0 +1,104 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: red;
+}
+
+.container {
+  min-height: 10rem;
+  max-width: 75rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+}
+
+#logo {
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: none;
+  background-image: url(Images/Logospider.png);
+}
+
+#pageheader .container {
+  background-color: none;
+  min-height: auto;
+  text-align: center;
+}
+
+#pageheader {
+  background-color: blue;
+  min-height: auto;
+  padding: 1rem;
+}
+#media {
+  background-color: lightblue;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/Spiderman.png);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
+}
+#career {
+  background-color: red;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagecontent {
+  background-color: blue;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester1 {
+  background-color: red;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester2 {
+  background-color: blue;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagefooter {
+  background-color: red;
+  min-height: auto;
+  padding: 1rem;
+}
+#pagefooter .container {
+  background-color: none;
+  text-align: center;
+  min-height: auto;
+}
+#subfooter {
+  background-color: blue;
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+audio {
+  display: block;
+  margin: auto;
+  background-color: red;
+  border: 5px solid red;
+}
+blockquote {
+  background: none;
+  padding: 1rem;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+blockquote + span {
+  padding: 1rem;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 1.25rem;
+}
+
+span {
+  background-color: none;
+}
