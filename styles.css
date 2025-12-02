@@ -70,6 +70,11 @@ body {
   text-align: center;
   min-height: auto;
 }
+#aifotter {
+  background-color: blue;
+  min-height: auto;
+  text-align: center;
+}
 #subfooter {
   background-color: blue;
   min-height: 10rem;
