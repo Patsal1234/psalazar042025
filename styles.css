@@ -22,15 +22,36 @@ body {
 }
 
 #pageheader .container {
-  background-color: none;
   min-height: auto;
-  text-align: center;
 }
 
 #pageheader {
   background-color: blue;
   min-height: auto;
   padding: 1rem;
+}
+
+#pageheader nav {
+  text-align: center;
+}
+
+#pageheader nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#pageheader nav ul li {
+  border: 2px solid silver;
+  padding: 1rem;
+  background-color: lightblue
+  margin:2px;
+  border-radius: 10px;
+}
+
+#pageheader nav ul li:hover
+{
+background: red;
 }
 #media {
   background-color: lightblue;
@@ -106,4 +127,25 @@ blockquote + span {
 
 span {
   background-color: none;
+}
+
+@media screen and (min-width: 600px) {
+  #pageheader nav ul {
+    background-color: none;
+    margin-top: 2rem;
+
+  }
+
+  #pageheader nav ul li
+  {
+    display: inline-block;
+  }
+
+  #pagecontent {
+    background-color: red;
+  }
+
+  career {
+    background-color: blue;
+  }
 }
