@@ -2,9 +2,9 @@
 
 :root
 {
-  background-color: red;
-  background-color: blue;
-  background-color: red;
+  --primary-color: red;
+  --secondary-color: blue;
+  --tertiary-color: red;
 }
 html {
   scroll-behavior: smooth;
@@ -32,6 +32,11 @@ body {
 
 #pageheader .container {
   min-height: auto;
+}
+#aifooter .container {
+  min-height: auto;
+  background-color: white;
+  text-align: center;
 }
 
 #pageheader {
@@ -107,7 +112,6 @@ background: red;
 }
 #subfooter {
   background-color: blue;
-  min-height: 10rem;
   padding: 1rem;
   text-align: center;
 }
