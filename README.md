@@ -2,7 +2,7 @@
 
 ## Web Developer
 
-{psalazar042025}(psalazar042025)
+{https://psalazar042025.netlify.app/}(https://psalazar042025.netlify.app/)
 
 ### About Me
 
