@@ -12,7 +12,7 @@ html {
 
 body {
   background: red;
-  background-image: url(Images/bodypattern.jpg);
+  background-image: url(Images);
 }
 
 .container {
@@ -70,11 +70,14 @@ background: none;
 }
 #media {
   background-color: lightblue;
-  min-height: 10rem;
+  /* min-height: 10rem; */
+  height:80vh;
   padding: 1rem;
   background-image: url(Images/Spiderman.png);
   background-size: cover;
-  aspect-ratio: 16 / 9;
+  /* aspect-ratio: 16 / 9; */
+  background-position: center center;
+
 }
 #career {
   background-color: none;
@@ -91,11 +94,34 @@ background: none;
   min-height: 10rem;
   padding: 1rem;
 }
-#semester2 {
+#worksamples {
   background-color: blue;
   min-height: 10rem;
   padding: 1rem;
 }
+
+#worksamples ul
+{
+  list-style-type:none ;
+}
+#certificates {
+  background-color: blue;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates ul
+{
+  list-style-type: none;
+}
+
+#certificates i
+{
+  color: red
+  font-size:1rem;
+  padding-right:.7rem;
+}
+
+
 #pagefooter {
   background-color: none;
   min-height: auto;
